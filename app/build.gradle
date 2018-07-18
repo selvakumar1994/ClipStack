@@ -8,8 +8,8 @@ android {
         applicationId "com.catchingnow.clip"
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 18
-        versionName "2.0.8"
+        versionCode 19
+        versionName "2.0.9"
     }
     buildTypes {
         release {
