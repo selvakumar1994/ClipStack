@@ -22,6 +22,10 @@ android {
         abortOnError false
     }
 }
+def getCustomVersionCode() {
+    def date = new Date()
+    return Integer.valueOf(System.env.BUILD_NUMBER ?: date.format('yyMMddHHmm'))
+}
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
