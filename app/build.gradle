@@ -9,7 +9,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 23
         versionCode getCustomVersionCode()
-        versionName "2.1.9"
+        versionName "2.1.9" //jfhuh
     }
     buildTypes {
         release {
